@@ -28,7 +28,7 @@ nano ~/palo/appsettings.json
 ```
 docker run -d \
 --name=CONTAINER_NAME
--v /home/docker/palo/appsettings.json:/app/appsettings.json \
+-v /home/username/palo/appsettings.json:/app/appsettings.json \
 --restart unless-stopped \
 ghcr.io/mysticdicc/palo-ip-updater:latest
 ```
